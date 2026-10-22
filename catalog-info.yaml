@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: starter-test
+  description: A small component created from a Backstage template
+  annotations:
+    github.com/project-slug: jk-platform-lab/starter-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/jaykearney
